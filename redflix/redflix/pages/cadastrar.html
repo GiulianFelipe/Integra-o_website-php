@@ -1,0 +1,63 @@
+<html>
+<head>
+<title> Redflix </title>
+<meta charset="utf-8">
+<link href="../css/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="shortcut icon" href="../imagens/logo1.png" >
+</head>
+<body>
+    <div class="linhafina">
+        <header id="menu" class="espacomenu"> 
+            <div id="logo" class="nomemenu">
+                <img  src="../imagens/logo1.png" id="img1">
+                <h1 class="fonttitulo">Redflix</h1>
+            </div>
+            <nav id="abasmenu" class="menulado" >
+              <ul id="letra">
+                <li class="active"><a href="../index.html">Home</a></li>
+                <li> <a href="../pages/feedresenhas.html">Resenhas Críticas</a></li>
+                <li> <a href="../pages/cadastrar.html">Cadastro</a></li>
+                <li> <a href="../pages/interacao.html">Envie sua resenha</a></li>
+              </ul>
+            </nav>
+          </header>
+          </div>
+        </br>
+    </br>
+      <div id="borda" class="center">
+        <h2> Cadastro </h2>
+            <form method="post"  action="../php/cadastro.php";>
+                <label for="name"> Nome:</label> </br>
+                <input type="text" name="nome" /> </br> </br>
+
+                <label for="senha">  Senha: </label> </br> 
+                <input type="password" name="senha" /> </br> </br>
+
+                <label for="confirme">  Confirmar senha: </label> </br>
+                <input type="password" name="confirmar_senha" /> </br> 
+                </br>
+                <input type="submit" name="submit" value="Enviar" onclick="enviar()">
+            </form>
+          </div>    
+          <br/>
+        
+          <div id="borda"  class="center">
+          <p > Já tem conta? <a href="../pages/interacao.html" > Envie sua resenha. </a> </p>
+          </div>
+          <br/>
+          <br/>
+
+
+   
+  <div class="linhagrossa">
+      <footer id="footer"> 
+          <div>
+                <a href="https://www.instagram.com/emanuelag_f/?hl=pt-br"> <img id="insta" src="../imagens/insta.png" > </a>  
+                <a href="https://twitter.com/home"> <img id="twitter" src="../imagens/twitter.png" > </a>  
+                <h6 id='fonttitulo' >Redflix</h6>  
+                <div style="text-align: center; font-size: 11px;"> ©️ Copyright 2020-2020 Copyright.com.br </div>
+          </div>
+      </footer>
+  </div> 
+</body>
+</html>

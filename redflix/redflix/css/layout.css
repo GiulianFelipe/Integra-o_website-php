@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+/*tira o subblinhado do menu e deixa o laranja na pag toda
+---------------------------------------------------------------------------------------------------------*/
+a{outline:none; text-decoration:none;}
+body{margin:0; padding:0; line-height:1.4em;}
+
+
+/*menu
+---------------------------------------------------------------------------------------------------------*/
+#logo{font-variant:small-caps;}
+.espacomenu:after{display:table; content:""; clear:both;}
+.nomemenu {float:left; }
+#abasmenu li{display:inline-block; margin:3px; position: relative;}
+#abasmenu li a{ padding:8px 10px; text-transform:uppercase; color:navy;}
+#abasmenu .active a, #abasmenu a:hover, #abasmenu li:hover > a{color:#cc0000; }
+.menulado{float:right;}
+#letra {font-family:cursive; font-size: 12px; color:navy;}
+
+/*pedaco acima do menu 
+---------------------------------------------------------------------------------------------------------------*/
+.linhafina{border:solid; border-width:10px 0 1px 0;}
+
+/*Redflix nome e cor das opcoes de pag
+---------------------------------------------------------------------------------------------------------*/
+.box{padding:20px; width:100%; margin:0 auto; text-align: center;}
+.fonttitulo{font-size:20px; text-transform:uppercase; color:navy; float: right; padding-top: 7px; margin: 10px; }
+.quadra1 {width: 100px; height: 250px; background-color: navy; padding: 30px;}
+
+/*ordena o tamanho e lugar das coisas no site, letras
+-----------------------------------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6, .heading{margin:0 0 20px 0; font-size:22px; line-height:normal; font-weight:normal; font-family: cursive;}
+
+address{font-style:normal; font-weight:normal;}
+#menu, #breadcrumb, #ajuste, #footer, #copyright {display:block; width:978px; margin:0 auto;}
+
+/*deixa os link com nome preto, configurações de titulos, paragrafos
+---------------------------------------------------------------------------------------------------------*/
+a{outline:none; text-decoration:none; color:#000000;}
+h1 {font-family: cursive; font-size: 30px; text-transform:uppercase;}
+h2 {font-family: Cursive;font-size: 23px; text-align: center;}
+*  {box-sizing: border-box;}
+.p {text-align: justify; margin-left: 14%; margin-right: 14%;}
+.p1 { background-color: #DCDCDC; margin: 0%;}
+
+/* linhas */
+.linhamediabranca {background-color:#FFFFFF;width:100%;height:20px;}
+.linhafina, .linhafina a{color:#000000; background-color:#FFFFFF;} 
+.linhafina{border-color:navy transparent #D7D7D7;} 
+.linhagrossa{color:#000000; background-color:navy; border-color:navy;}  
+.linhamedia {background-color:navy;width:100%;height:20px;}
+
+/* body resenhas */
+#titulo {color: #000000;text-align: center; font-family: cursive;}
+#imgResenhas {width:350px;height:200px; float: right; }
+.naoespaco{margin:0; padding:0; list-style:none; font-size: 17px;}
+.p {font-size: 17; font-family: 'Times New Roman';}
+#nomeresenha { text-align: center; }
+
+/* imagem logo */
+#img1 {width:60px;height:50px;}
+
+/* colunas fotos home
+---------------------------------------------------------------------------------------------------------------*/
+#ajuste{padding:35px 0;}
+
+
+/* IMAGENS espaco das bordas das imagens e do tamanho do aside
+-----------------------------------------------------------------------------------*/
+.imagenstam{padding:5px;}
+.asidetam{padding:30px;}
+.tam{padding:10px;}
+.corborda{border:1px solid #d4dfe3;}
+#img {width:220px;height:200px;}
+
+
+/*deixar as imagens do quadrado uma do lado da outra 
+-----------------------------------------------------------------------------------*/
+.asideordem, .colunasfotos {display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none; box-sizing:border-box;}
+.asideordem:first-child, .colunasfotos:first-child{margin-left:0;}
+
+.first {margin-left:0;}
+.colunasfotos{width:22.69938650306748%;}
+.colunasfotos.nogutter{width:25%;}
+.asideordem{width:31.28834355828221%;}
+.asideordem.nogutter{width:33.33333333333333%;}
+
+/*rodape
+-----------------------------------------------------------------------------------*/
+#footer {font-family: cursive; color:white; }
+#footer{padding:5px 0;}
+#footer *{margin:0; padding:0;}
+#footer .title, #footer address{margin-bottom:2px;}
+#footer ul li{display:inline-block; margin-right:15px;}
+#fonttitulo{font-size:1,5em; text-transform:uppercase; color:white; text-align: center;}
+#insta { width: 50px; height: 45px; float:right; margin-top: 3px;}
+#twitter { width: 50px; height: 45px; float:left; margin-top: 3px;}
+
+/*deixar as imagens do quadrado uma do lado da outra 
+-----------------------------------------------------------------------------------*/
+.asideordem {display:inline-block; float:left; margin:0 0 0 3.06748466257669%; list-style:none; box-sizing:border-box;}
+
+
+/*parte do index de imagem principal e texto por cima
+-----------------------------------------------------------------------------------*/
+
+#imgdig { 
+  width:100%; 
+  height:500px; 
+  opacity: 0.7;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);;
+}
+#pg {
+  font-size: 70px;
+  font-family:cursive;
+  color:navy;
+}
+#esc {
+  font-size: 22px;
+  font-family:'Times New Roman';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);;
+  color:navy;
+  
+}
+#cinema {
+  float:left;
+  display: inline-block;
+  margin-left: 150px;
+}
+
+
+
+/* borda do formulario de cadastro */
+#borda{border: 1px solid #000000;margin:auto;width: 450px;padding: 10px; }
+#borda2{border: 1px solid #000000;margin:auto;width: 450px;padding: 10px;}
+
+/* css formulários */
+.center {
+  text-align: center;
+}
+
+#area {
+  width:280px;
+}
+
+#resenha {
+  width:280px;
+  height:230px;
+}
+
+#imgtema {
+  width:330px;
+  height:360px;
+  padding: 40px;
+  margin-top: 0px;
+  display: flex;
+
+}
+
+
+
+/* boxs da pagina index */
+.boxprincipal { 
+  width: 460px;
+  background-color: #d4dfe3;
+  padding: 10px;
+  margin-left: 50%;
+  
+}
+  
+#box { 
+  width: 337px;
+  display: flex;
+  flex-direction: row;
+  float:left;
+  margin-left:85px; 
+  text-align: center;
+}
+
+.box_borda {  
+  border-right: 10px solid #d4dfe3; 
+  border-bottom: 10px solid #d4dfe3; 
+  height: 280px; 
+  padding: 10px ;
+  background-color: white; 
+  margin:8px;
+
+}
+  
+.boxazul {
+  background-color: navy;
+  width: 100%; 
+  height: 220px; 
+  position: relative;
+}
+
+.boxdepoimento { 
+  width: 100%;
+  background-color: #d4dfe3;
+  height: 400px;
+  
+}
+.depo_borda {  
+  border-bottom: 10px solid navy; 
+  height: 400px; 
+  
+}
+
+.boxclaro {
+  background-color:#d4dfe3;
+  width: 100%; 
+  height: 60px; 
+  position: relative;
+  
+}
+
+
+/* depoimentos */
+
+.depo_text {
+  display: flex;
+  flex-direction:column;
+  margin-left: 150px;
+
+}

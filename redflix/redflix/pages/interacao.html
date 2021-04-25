@@ -1,0 +1,89 @@
+<html>
+<head>
+<title> Redflix </title>
+<meta charset="utf-8">
+<link href="../css/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="shortcut icon" href="../imagens/logo1.png" >
+</head>
+<body>
+    <div class="linhafina">
+        <header id="menu" class="espacomenu"> 
+            <div id="logo" class="nomemenu">
+                <img  src="../imagens/logo1.png" id="img1">
+                <h1 class="fonttitulo">Redflix</h1>
+            </div>
+            <nav id="abasmenu" class="menulado" >
+              <ul id="letra">
+                <li class="active"><a href="../index.html">Home</a></li>
+                <li> <a href="../pages/feedresenhas.html">Resenhas Críticas</a></li>
+                <li> <a href="../pages/temas.html">Temas Propostos</a></li>
+                <li> <a href="../pages/cadastrar.html">Cadastro</a></li>
+                <li> <a href="../pages/interacao.html">Envie sua resenha</a></li>
+              </ul>
+            </nav>
+          </header>
+          </div>
+    </br>
+    <h2> Envie sua Resenha </h2>
+    <div>
+       
+      <form name="form" method="post" action="cadastro.html" onsubmit="return validar();"  id="borda" class="center">
+        <h4 style="font-size: 15px;"> <b>Informações Pessoais: </b> </h4>
+        <label for="name" > Nome: </label> </br>
+          <input type="text" name="name" id="area" value="" size="22"> </br> </br>
+          <label for="email">E-mail: </label> </br>
+          <input type="text" name="email" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Data: </label>  </br>
+          <input type="date" name="data" id="area" value="" size="22"> </br> </br>
+      </form>
+      </br>
+      </br>
+      <form name="form" method="post" action="cadastro.html" onsubmit="return validar();" id="borda" class="center">
+        <h4 style="font-size: 15px;"> <b>Informações do Filme e Temas:</b></h4>
+          <label for="url"> Nome do Filme: </label> </br> 
+          <input type="text" name="nomefilme" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Tempo de duração: </label> </br>
+          <input type="text" name="tempo" id="area" value="" size="22"> </br> </br>
+          <label for="url"> País: </label> </br>
+          <input type="text" name="pais" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Idioma: </label> </br>
+          <input type="text" name="idioma" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Lançamento: </label> </br> 
+          <input type="date" name="lancamento" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Gênero: </label> </br>
+          <input type="text" name="genero" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Classificação: </label> </br>
+          <input type="text" name="classificacao" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Estreia no Brasil: </label> </br>
+          <input type="date" name="estreia" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Título Original: </label> </br>
+          <input type="text" name="titulooriginal" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Direção: </label> </br>
+          <input type="text" name="direcao" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Imagem do Filme: </label> </br>
+          <input type="text" name="imagem" id="area" value="" size="22"> </br> </br>
+          <label for="url"> Temas Propostos: </label> </br>
+          <input type="text" name="temas" id="area" value="" size="22"> </br> </br>
+          <label for="comment"> Escreva sua resenha: </label> </br>
+          <textarea name="comment" id="resenha" cols="25" rows="10"></textarea> </br> </br>
+          <input name="reset" type="reset" value="Enviar">
+      </form>
+    </div>    
+      <br/>
+      <br/>
+      <br/>
+
+
+   
+      <div class="linhagrossa">
+        <footer id="footer"> 
+          <div>
+              <a href="https://www.instagram.com/emanuelag_f/?hl=pt-br"> <img id="insta" src="../imagens/insta.png" > </a>  
+              <a href="https://twitter.com/home"> <img id="twitter" src="../imagens/twitter.png" > </a>  
+              <h6 id='fonttitulo' >Redflix</h6>  
+              <div style="text-align: center; font-size: 11px;"> ©️ Copyright 2020-2020 Copyright.com.br </div>
+          </div>
+        </footer>
+      </div> 
+</body>
+</html>
